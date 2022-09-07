@@ -30,8 +30,7 @@ public class Bee1059Steps {
         System.setOut(previousOut);
     }
 
-    @Then("output should be")
-    @Then("a saída deve ser")
+    @Then("The output should be")
     public void output_should_be(String expected) {
         assertEquals(expected, actual);
     }
